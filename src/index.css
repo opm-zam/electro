@@ -1,0 +1,1065 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button.CreateProduct.btn.btn-primary {
+  margin-top: 1rem;
+  margin-right: 61rem;
+}
+div.Dropdown.nav-item.show.dropdown {
+  background-color: transparent;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    background: #b7b7b724;
+  }
+}
+@media (min-width: 1200px) {
+  .h2,
+  h2 {
+    font-size: 3rem;
+    color: #000e11;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+  }
+}
+.card-img,
+.card-img-top {
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+  border: 1px solid;
+  border-color: black;
+  box-shadow: 0px 0px 10px grey;
+}
+
+.card-img,
+.card-img-top:hover {
+  transition: 0.5s;
+  background-color: white;
+  opacity: 0.5;
+}
+
+.HeaderDescription {
+  text-align: center;
+  margin-top: 5rem;
+}
+.mb-3 {
+  margin-bottom: 1rem !important;
+  margin-top: 15px;
+}
+.bg-dark {
+  --bs-bg-opacity: 1;
+  background-color: #000e11 !important;
+  height: 117px;
+  cursor: pointer;
+}
+
+img.Logo {
+  width: 15rem;
+  margin-left: -410px;
+}
+
+img.WordLogo {
+  width: 15rem;
+  margin-left: 180px;
+}
+/* [type='button']:not(:disabled),
+[type='reset']:not(:disabled),
+[type='submit']:not(:disabled),
+button:not(:disabled) {
+  cursor: pointer;
+  margin-left: -75px;
+} */
+button.AddtoCartButton.btn.btn-primary {
+  width: 100%;
+  background-color: #e39e50;
+  margin-top: 24rem;
+  margin-left: 8.5rem;
+  font-weight: 600;
+}
+
+button.AddtoCartButton.btn.btn-primary:hover {
+  width: 100%;
+  background-color: #000e11;
+  margin-top: 24rem;
+  margin-left: 8.5rem;
+  transition: 0.5s;
+}
+@media (min-width: 1200px) {
+  .h1,
+  h1 {
+    font-size: 2.5rem;
+    color: #000e11;
+    margin-top: 3rem;
+    font-family: 'Titillium Web', sans-serif;
+  }
+}
+.alert-info {
+  background: #000e11;
+  border-color: transparent;
+  color: white;
+}
+button.ShopNow.btn.btn-primary {
+  background-color: #e39e50;
+  color: #000000;
+  border-color: transparent;
+  margin-top: 2rem;
+  transition: 0.5s;
+}
+
+Button.ShopNow.btn.btn-primary:hover {
+  background-color: #000e11;
+  color: white;
+  border-color: transparent;
+  margin-top: 2rem;
+}
+
+.d-grid {
+  display: grid !important;
+  background: white;
+  opacity: 1;
+  height: 0;
+}
+
+button.btn.btn-light:hover {
+  background-color: #e39e50;
+}
+.btn-light {
+  color: white;
+  background-color: #000e11;
+  border-color: #f8f9fa;
+  opacity: 1;
+}
+.btn-primary.disabled,
+.btn-primary:disabled {
+  color: #fff;
+  background-color: #bb0505;
+  border-color: none;
+}
+
+.btn-light.disabled,
+.btn-light:disabled {
+  color: white;
+  background-color: #000e11;
+  border-color: transparent;
+  opacity: 0.8;
+}
+
+.btn.disabled,
+.btn:disabled,
+fieldset:disabled .btn {
+  pointer-events: none;
+  opacity: 0.8;
+  background-color: #dd0808db;
+}
+
+button.Bar.btn.btn-dark {
+  background-color: #e39e50;
+  margin-left: 1rem;
+}
+
+.btn-dark {
+  color: #fff;
+  background-color: #212529;
+  border-color: #212529;
+  cursor: pointer;
+  margin-left: -75px;
+}
+.input-group:not(.has-validation) > .dropdown-toggle:nth-last-child(n + 3),
+.input-group:not(.has-validation)
+  > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  background: transparent;
+}
+
+.input-group:not(.has-validation) > .dropdown-toggle:nth-last-child(n + 3),
+.input-group:not(.has-validation)
+  > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):hover {
+  background-color: transparent;
+}
+.input-group
+  > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+  margin-left: 10px;
+  border-top-left-radius: 0;
+  background: white;
+  border-bottom-left-radius: 0;
+  color: #000e11;
+}
+
+.input-group
+  > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback):hover {
+  background-color: white;
+  border-color: black;
+}
+.btn-outline-primary {
+  border-color: none;
+}
+
+h1.BestProducts {
+  margin-top: 15rem;
+  color: #000e11;
+  padding-top: 3rem;
+}
+
+.input-group > .form-control,
+.input-group > .form-select {
+  position: relative;
+  flex: 1 1 auto;
+  width: 1%;
+  min-width: 0;
+}
+.me-auto {
+  margin-right: auto !important;
+  margin-left: -25px;
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    margin-left: 150px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    margin-left: 140px;
+  }
+}
+
+a.nav-link {
+  color: green;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #e39e50;
+}
+
+i.Account.fas.fa-user {
+  color: white;
+  margin-top: 11px;
+}
+
+i.fas {
+  color: white;
+}
+
+i.fas.fa-search {
+  color: black;
+}
+
+.btn-outline-primary {
+  border-color: transparent;
+}
+
+.btn-primary {
+  color: #fff;
+  border-color: none;
+}
+.input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+  margin-left: 50px;
+}
+.site-container {
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #000e11;
+}
+
+.btn-primary:hover {
+  background-color: #000e11;
+  border-color: transparent;
+}
+.btn-primary,
+.btn-outline-primary {
+  background-color: #e39e50;
+  color: #000000;
+  border-color: transparent;
+  font-weight: 600;
+}
+
+div.ContainerShadow.card-body {
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+  background: #000e11;
+  box-shadow: 0px 0px 10px grey;
+}
+/* .btn-primary,
+.btn-outline-primary:hover {
+  background-color: #e39e50;
+  color: #000000;
+  border-color: transparent;
+} */
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: transparent;
+  background-clip: border-box;
+  border: none;
+  border-radius: 0px;
+}
+.card-body {
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+  background: #000e11;
+}
+.card-title {
+  margin-bottom: 0.5rem;
+  color: white;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  border: 1px #404040 solid;
+  margin: 1rem;
+}
+.product img {
+  width: 100%;
+  max-width: 300px;
+}
+.product-info {
+  padding: 1rem;
+}
+
+.img-large {
+  max-width: 100%;
+  border-color: black;
+}
+.img-thumbnail {
+  height: 80px;
+}
+
+.small-container {
+  max-width: 700px;
+  height: 40rem;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+.checkout-steps > div {
+  border-bottom: 0.2rem solid #a0a0a0;
+  color: #a0a0a0;
+}
+.checkout-steps > div.active {
+  border-bottom: 0.2rem solid #f08000;
+  color: #f08000;
+}
+
+/* sidebar */
+.navbar-brand {
+  font-weight: bold;
+}
+.side-navbar {
+  width: 240px;
+  height: 100%;
+  position: absolute;
+  left: -300px;
+  background-color: #100901;
+  transition: 0.5s;
+}
+
+.site-container {
+  transition: 0.4s;
+}
+.active-cont {
+  margin-left: 240px;
+}
+.active-nav {
+  left: 0;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+  background-color: #000e11;
+  color: #e39e50;
+  height: 280px;
+  margin-top: 10rem;
+  text-align: left;
+  padding-top: 10px;
+}
+
+div.ElectroCity {
+  margin-left: 17rem;
+  margin-top: 3rem;
+}
+
+div.Regulation {
+  margin-left: 55rem;
+  margin-top: -8.3rem;
+}
+
+div.Tutorials {
+  margin-left: 36rem;
+  margin-top: -107px;
+}
+
+p.Order {
+  margin-top: 25px;
+  color: white;
+}
+
+p.Warranty {
+  margin-top: -10px;
+  color: white;
+}
+
+p.Privacy {
+  margin-top: -10px;
+  color: white;
+}
+
+p.About {
+  margin-top: 25px;
+  color: white;
+}
+
+p.Team {
+  margin-top: -10px;
+  color: white;
+}
+
+p.Partnership {
+  margin-top: -10px;
+  color: white;
+}
+
+p.Contact {
+  margin-top: -10px;
+  color: white;
+}
+
+p.Follow {
+  margin-top: -10px;
+  color: white;
+}
+
+.ProductCheckout {
+  background-color: transparent;
+  height: 170px;
+  margin-left: 1px;
+  margin-top: -222px;
+}
+
+p.Arduino {
+  background-color: transparent;
+  width: 35rem;
+  text-align: justify;
+  font-family: 'Titillium Web', sans-serif;
+}
+div.ArduinoHeader.list-group-item {
+  background-color: transparent;
+  margin-left: -570px;
+  width: 545px;
+  text-align: center;
+}
+
+div.ArduinoPrice.list-group-item {
+  background-color: transparent;
+  margin-left: -570px;
+  margin-top: -1.5rem;
+  width: 545px;
+  text-align: center;
+}
+
+div.ArduinoDescription.list-group-item {
+  background-color: transparent;
+  width: 37rem;
+  font-weight: 400;
+}
+
+div.ArduinoStatusBox.list-group-item {
+  background-color: transparent;
+  margin-top: -20rem;
+  width: 34.09rem;
+  margin-left: -1.1rem;
+  justify-content: center;
+}
+
+div.ArduinoStatusBox.card-body {
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+  background: transparent;
+}
+
+div.ArduinoStatusStatus.col {
+  background-color: transparent;
+  text-align: center;
+  margin-left: -1rem;
+  font-weight: 700;
+}
+div.ArduinoStatusStock.col {
+  background-color: transparent;
+  text-align: center;
+  margin-left: -25rem;
+}
+
+div.ArduinoStatus.row {
+  color: red;
+}
+.list-group-item {
+  border: none;
+}
+
+p.PriceItem.card-text {
+  color: white;
+}
+
+span.InStock.badge.bg-success {
+  margin-left: -2rem;
+}
+/* CART SCREEN */
+
+div.CartBody.align-items-center.row {
+  background-color: transparent;
+  height: 6.5rem;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+Span.ItemDetails {
+  color: black;
+}
+
+div.SubtotalContainer.card-body {
+  background-color: transparent;
+  height: 15rem;
+}
+
+div.SubtotalDetails.list-group-item {
+  background-color: #000e11;
+  border-radius: 5px;
+  margin-top: -0.5rem;
+  height: 8rem;
+}
+
+h3.Subtotal {
+  color: #ffffffd9;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+div.ButtonContainer.list-group-item {
+  background-color: #c9c7c766;
+  border-radius: 5px;
+  height: 4rem;
+}
+
+button.Proceed.btn.btn-primary {
+  background-color: #e39e50;
+  border-color: transparent;
+  color: #000000;
+  font-weight: 600;
+  margin-left: 2.5rem;
+  margin-top: 5px;
+  width: 13rem;
+}
+
+button.Proceed.btn.btn-primary:hover {
+  background-color: #000e11;
+  color: white;
+}
+
+a.ItemName {
+  color: black;
+  font-weight: 600;
+}
+
+/* DASHBOARD SCREEN */
+
+p.SalesText.card-text {
+  color: #e39e50;
+}
+
+/* CATEGORIES */
+
+div.CategoryHeader.nav-item {
+  color: #e39e50;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+  width: 6rem;
+}
+.text-white {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+  background: transparent;
+  height: 100%;
+  justify-content: center;
+}
+div.Category.nav-item {
+  background-color: transparent;
+}
+
+a.IO.nav-link {
+  color: #000e11;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+a.IO.nav-link:hover {
+  color: #e39e50;
+}
+.side-navbar {
+  width: 240px;
+  height: 195.8rem;
+  position: absolute;
+  background-color: transparent;
+  transition: 0.5s;
+  margin-top: 0rem;
+}
+
+div.Result.col-md-6 {
+  color: #000e11;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+/* SEARCH SCREEN */
+div.SearchDetails.col-md-3 {
+  background-color: black;
+}
+
+div.SearchBody.col-md-9 {
+  background-color: #8080802e;
+  height: 43rem;
+  margin-top: 3rem;
+}
+
+button.Exit.btn.btn-light {
+  background-color: transparent;
+  color: #e39e50;
+  margin-left: -0.5rem;
+  border: none;
+}
+
+i.Exit.fa.fa-times-circle {
+  font-weight: 900;
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+}
+
+input.SearchColor.form-control {
+  color: white;
+}
+/* ACCOUNT */
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1rem;
+  clear: both;
+  font-weight: 500;
+  color: #e39e50;
+  text-align: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+
+.dropdown-item:hover {
+  background-color: #000e11;
+  color: white;
+}
+
+/* PRODUCT.JS */
+
+img.SearchImages.card-img-top {
+  width: 16rem;
+}
+
+@media (min-width: 768px) {
+  .col-md-9 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+}
+
+div.ImageContainer.card {
+  background-color: transparent;
+  width: 16rem;
+  margin-left: 2rem;
+}
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    flex: 0 0 auto;
+    width: 23.333333%;
+  }
+}
+
+a.PageButton.text-bold.btn.btn-light {
+  background-color: #e39e50;
+  margin-left: 0.5rem;
+  margin-top: 3rem;
+}
+
+a.PageButton.btn.btn-light {
+  background-color: #e39e50;
+  margin-left: 0.5rem;
+  margin-top: 3rem;
+  border-color: transparent;
+}
+
+/* SIGN-IN SCREEN */
+
+a.SignInColor {
+  color: #e39e50;
+}
+
+a.SignInColor:hover {
+  color: #000e11;
+  transition: 0.5s;
+}
+
+.my-3 {
+  margin-top: 1.5rem !important;
+  margin-bottom: 1rem !important;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+/*SIGN-UP SCREEN */
+a.SignUpColor {
+  color: #e39e50;
+}
+
+a.SignUpColor:hover {
+  color: #000e11;
+  transition: 0.5s;
+}
+
+label.Occupation.input-group-text {
+  border-radius: 7px;
+  font-weight: 600;
+}
+
+/* ABOUT US SCREEN */
+
+a.AboutUsHeader {
+  color: white;
+  display: block;
+}
+
+/*TEAM SCREEN */
+a.TeamHeader {
+  color: white;
+  display: block;
+}
+
+/*PARTNERSHIP SCREEN*/
+
+a.PartnershipHeader {
+  color: white;
+  display: block;
+}
+
+p.Disclaimer {
+  color: #bb0505;
+}
+
+/*CONTACT US SCREEN */
+a.ContactHeader {
+  color: white;
+  display: block;
+}
+
+a.ContactUs:visited {
+  color: #000e11;
+  text-decoration: none;
+}
+
+a.ContactUs:hover {
+  color: #e39e50;
+  text-decoration: underline;
+}
+
+/*ORDER POLICY SCREEN */
+
+a.OrderHeader {
+  color: white;
+  display: block;
+}
+
+/*WARRANTY SCREEN */
+
+a.WarrantyHeader {
+  color: white;
+  display: block;
+}
+
+/* PRIVACY POLICY SCREEN */
+
+a.PrivacyHeader {
+  color: white;
+  display: block;
+}
+
+/*TUTORIAL */
+
+a.ArduinoUnoHeader {
+  display: block;
+  width: 15rem;
+  text-decoration: none;
+}
+
+a.ArduinoUnoHeader:hover {
+  color: white;
+}
+
+a.RaspberryPiHeader {
+  text-decoration: none;
+}
+
+a.RaspberryPiHeader:hover {
+  color: white;
+}
+
+/* SignUp Check Box*/
+label.input-group-text {
+  background-color: #e39e50;
+  margin-left: -50px;
+}
+
+/*Shipping Details*/
+p.ShippingDetails.card-text {
+  color: #e39e50;
+}
+
+p.PaymentDetails.card-text {
+  color: #e39e50;
+}
+
+a.EditShipping:hover {
+  color: #e39e50;
+}
+
+a.EditPayment:hover {
+  color: #e39e50;
+}
+
+a.EditItems:hover {
+  color: #e39e50;
+}
+div.ShippingContainer.card-body {
+  border-radius: 7px;
+}
+
+div.PaymentContainer.card-body {
+  border-radius: 7px;
+}
+
+div.ItemContainer.card-body {
+  border-radius: 7px;
+}
+
+div.PictureContainer.list-group-item {
+  background-color: transparent;
+}
+
+div.ItemNumber.col-md-3 {
+  color: white;
+}
+
+div.ItemPrice.col-md-3 {
+  color: white;
+}
+
+div.ImageItemPreview.col-md-6 {
+  margin-left: -1rem;
+  margin-bottom: 0.5rem;
+}
+
+div.OrderSummaryContainer.card-body {
+  margin-top: 1rem;
+  height: 17rem;
+  border-radius: 7px;
+}
+
+button.PlaceOrderButton.btn.btn-primary {
+  margin-top: 2rem;
+  border-color: transparent;
+}
+
+.list-group-flush {
+  border-radius: 0;
+  border-radius: 7px;
+}
+
+div.OrderSum.row {
+  margin-top: 1rem;
+}
+
+/* DASHBOARD SCREEN */
+div.UserContainer.card-body {
+  border-radius: 7px;
+}
+
+div.OrderContainer.card-body {
+  border-radius: 7px;
+}
+
+div.TotalSaleContainer.card-body {
+  border-radius: 7px;
+}
+
+/* OUR TEAM SCREEN */
+
+img.Cris {
+  width: 15rem;
+  height: 15rem;
+}
+
+h4.fontteam {
+  font-weight: 700;
+  /* margin-left: 2rem; */
+  font-family: 'Titillium Web', sans-serif;
+}
+
+img.Ella {
+  width: 15rem;
+  height: 15rem;
+  /* margin-left: 18rem;
+  margin-top: -21.5rem; */
+}
+img.Kim {
+  width: 15rem;
+  height: 15rem;
+  /* margin-left: 36rem;
+  margin-top: -21.5rem; */
+}
+
+div.names {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  margin-left: 2.5rem;
+  margin-right: 2rem;
+}
+
+div.Pictures {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+}
+
+/* ORDER SCREEN */
+
+p.ThankYou {
+  color: #e39e50;
+  font-family: cursive;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+button.OrderDelivered.btn.btn-primary {
+  width: 12rem;
+  margin-left: 6rem;
+  font-weight: 500;
+}
+
+/* TUTORIALS */
+
+video {
+  border: 2px solid black;
+  border-radius: 7px;
+}
+
+h1.BasicArduinoHeader {
+  margin-bottom: 5rem;
+}
+
+h4.V1 {
+  color: #e39e50;
+}
+
+div.V1 {
+  width: 20rem;
+  text-align: center;
+}
+
+div.Template {
+  background-color: #000e11;
+  width: 320px;
+  height: 240px;
+  margin-left: 25rem;
+  margin-top: -15.3rem;
+  border: 2px solid black;
+  border-radius: 7px;
+}
+
+h4.Template {
+  color: #e39e50;
+  margin-top: 15rem;
+  margin-left: 5rem;
+}
+
+div.Template2 {
+  background-color: #000e11;
+  width: 320px;
+  height: 240px;
+  margin-left: 50rem;
+  margin-top: -15rem;
+  border: 2px solid black;
+  border-radius: 7px;
+}
+
+h4.Template2 {
+  color: #e39e50;
+  margin-top: 15rem;
+  margin-left: 5rem;
+}
+
+.showpassword {
+  border: none;
+  background: none;
+  color: #e39e50;
+  /* text-decoration: underline; */
+  font-size: small;
+}
+
+.linkfooter {
+  color: #e39e50;
+}
