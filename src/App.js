@@ -20,13 +20,13 @@ import PlaceOrderScreen from './screens/PlaceOrderScreen';
 import OrderScreen from './screens/OrderScreen';
 import OrderHistoryScreen from './screens/OrderHistoryScreen';
 import ProfileScreen from './screens/ProfileScreen';
-import { getError } from './utils';
+import { getError } from './Utils';
 import axios from 'axios';
-import SearchBox from './components/SearchBox';
+import SearchBox from './Components/SearchBox';
 import SearchScreen from './screens/SearchScreen';
-import ProtectedRoute from './components/ProtectedRoute';
+import ProtectedRoute from './Components/ProtectedRoute';
 import DashboardScreen from './screens/DashboardScreen';
-import AdminRoute from './components/AdminRoute';
+import AdminRoute from './Components/AdminRoute';
 import ProductListScreen from './screens/ProductListScreen';
 import ProductEditScreen from './screens/ProductEditScreen';
 import OrderListScreen from './screens/OrderListScreen';
@@ -60,7 +60,7 @@ function App() {
   useEffect(() => {
     const fetchCategories = async () => {
       try {
-        const { data } = await axios.get(`/api/products/categories`);
+        const { data } = await axios.get(`https://electrocity2022.herokuapp.com/api/products/categories`);
         setCategories(data);
       } catch (err) {
         toast.error(getError(err));

@@ -8,10 +8,10 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import ListGroup from 'react-bootstrap/ListGroup';
 import { toast } from 'react-toastify';
-import { getError } from '../utils';
+import { getError } from '../Utils';
 import { Store } from '../Store';
-import CheckoutSteps from '../components/CheckoutSteps';
-import LoadingBox from '../components/LoadingBox';
+import CheckoutSteps from '../Components/CheckoutSteps';
+import LoadingBox from '../Components/LoadingBox';
 
 const reducer = (state, action) => {
   switch (action.type) {
@@ -45,7 +45,7 @@ export default function PlaceOrderScreen() {
       dispatch({ type: 'CREATE_REQUEST' });
 
       const { data } = await Axios.post(
-        '/api/orders',
+        'https://electrocity2022.herokuapp.com/api/orders',
         {
           orderItems: cart.cartItems,
           shippingAddress: cart.shippingAddress,

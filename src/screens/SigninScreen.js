@@ -7,7 +7,7 @@ import { Helmet } from 'react-helmet-async';
 import { useContext, useEffect, useState } from 'react';
 import { Store } from '../Store';
 import { toast } from 'react-toastify';
-import { getError } from '../utils';
+import { getError } from '../Utils';
 
 export default function SigninScreen() {
   const navigate = useNavigate();
@@ -24,7 +24,7 @@ export default function SigninScreen() {
   const submitHandler = async (e) => {
     e.preventDefault();
     try {
-      const { data } = await Axios.post('/api/users/signin', {
+      const { data } = await Axios.post('https://electrocity2022.herokuapp.com/api/users/signin', {
         email,
         password,
       });

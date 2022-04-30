@@ -3,10 +3,10 @@ import axios from 'axios';
 import logger from 'use-reducer-logger';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Product from '../components/Product';
+import Product from '../Components/Product';
 import { Helmet } from 'react-helmet-async';
-import MessageBox from '../components/MessageBox';
-import LoadingBox from '../components/LoadingBox';
+import MessageBox from '../Components/MessageBox';
+import LoadingBox from '../Components/LoadingBox';
 import Button from 'react-bootstrap/esm/Button';
 
 const reducer = (state, action) => {
@@ -33,7 +33,7 @@ function HomeScreen() {
     const fetchData = async () => {
       dispatch({ type: 'FETCH_REQUEST' });
       try {
-        const result = await axios.get('/api/products');
+        const result = await axios.get('https://electrocity2022.herokuapp.com/api/products');
         dispatch({ type: 'FETCH_SUCCESS', payload: result.data });
       } catch (err) {
         dispatch({ type: 'FETCH_FAIL', payload: err.message });

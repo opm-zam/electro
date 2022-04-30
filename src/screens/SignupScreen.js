@@ -9,7 +9,7 @@ import { Helmet } from 'react-helmet-async';
 import { useContext, useEffect, useState } from 'react';
 import { Store } from '../Store';
 import { toast } from 'react-toastify';
-import { getError } from '../utils';
+import { getError } from '../Utils';
 
 export default function SignupScreen() {
   const navigate = useNavigate();
@@ -33,7 +33,7 @@ export default function SignupScreen() {
       return;
     }
     try {
-      const { data } = await Axios.post('/api/users/signup', {
+      const { data } = await Axios.post('https://electrocity2022.herokuapp.com/api/users/signup', {
         name,
         email,
         occupation,
